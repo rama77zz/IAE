@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['city'])) {
 <body>
     <header>
         <h1>Weather App</h1>
-        <p>Get real-time weather information using OpenWeatherMap API</p>
+        <p>Dapatkan Informasi Cuaca Terbaru Pada Kota Yang Diinginkan</p>
     </header>
     <main>
         <section class="search">
