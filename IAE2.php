@@ -1,5 +1,5 @@
 <?php
-$apiKey = 'b36bcb487fe43fd2f80ddf65e5264e0a'; // Replace with your OpenWeatherMap API key
+$apiKey = 'b36bcb487fe43fd2f80ddf65e5264e0a'; 
 $weatherData = null;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['city'])) {
